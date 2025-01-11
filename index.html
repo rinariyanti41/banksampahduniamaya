@@ -30,14 +30,53 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/produk1.ico" alt="Pupuk Cair" />
+          <div class="item-detail">
+            <h3>Pupuk Cair</h3>
+            <div class="item-price">IDR 130K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk1.ico" alt="Pupuk Cair" />
+          <div class="item-detail">
+            <h3>Pupuk Cair</h3>
+            <div class="item-price">IDR 130K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk1.ico" alt="Pupuk Cair" />
+          <div class="item-detail">
+            <h3>Pupuk Cair</h3>
+            <div class="item-price">IDR 130K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
     </nav>
     <!-- Navbar end -->
 
@@ -49,7 +88,6 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
           non?
         </p>
-        <a href="#" class="cta">Beli Sekarang</a>
       </main>
     </section>
     <!-- Hero Section end -->
@@ -81,7 +119,7 @@
 
     <!-- Menu Section start -->
     <section id="menu" class="menu">
-      <h2><span>Menu</span> Kami</h2>
+      <h2><span>Produk Unggulan</span> Kami</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
         perferendis. Commodi itaque quaerat impedit consequatur?
@@ -91,7 +129,7 @@
         <div class="menu-card">
           <img src="photo/produk1.ico" alt="Pupuk Cair" class="menu-card-img" />
           <h3 class="menu-card-title">- Pupuk Cair -</h3>
-          <p class="menu-card-price">IDR 65K</p>
+          <p class="menu-card-price">IDR 130K</p>
         </div>
         <div class="menu-card">
           <img
@@ -142,6 +180,81 @@
     </section>
     <!-- Menu Section end -->
 
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk</span> Kami</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic cum
+        dolorem quisquam.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product image">
+            <img src="img/produk1.ico" alt="Pupuk Cair" />
+          </div>
+          <div class="product-content">
+            <h3>Pupuk Cair</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 130K <span>IDR 165K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product image">
+            <img src="img/produk1.ico" alt="Pupuk Cair" />
+          </div>
+          <div class="product-content">
+            <h3>Pupuk Cair</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 130K <span>IDR 165K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product image">
+            <img src="img/produk1.ico" alt="Pupuk Cair" />
+          </div>
+          <div class="product-content">
+            <h3>Pupuk Cair</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 130K <span>IDR 165K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
     <!-- Contact Section start -->
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
@@ -155,31 +268,31 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15851.130344266845!2d107.34460218345716!3d-6.673838580693934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6906c3dc1a7521%3A0x3f6a0fcbc8e41c2b!2sCadassari%2C%20Kec.%20Tegalwaru%2C%20Kabupaten%20Purwakarta%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1735393752349!5m2!1sid!2sid"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" class="map"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
         ></iframe>
 
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama">
+            <input type="text" placeholder="nama" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="email">
+            <input type="text" placeholder="email" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp">
+            <input type="text" placeholder="no hp" />
           </div>
           <button type="submit" class="btn">kirim pesan</button>
         </form>
-
       </div>
     </section>
     <!-- Contact Section and -->
 
     <!-- Footer start -->
-     <footer>
+    <footer>
       <div class="socials">
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
@@ -196,8 +309,38 @@
       <div class="credit">
         <p>Created by <a href="">rinariyanti.</a> | &copy; 2024</p>
       </div>
-     </footer>
+    </footer>
     <!-- Footer start -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk1.ico" alt="Pupuk Cair" />
+          <div class="product-content">
+            <h3>Pupuk Cair</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus omnis eos eum doloremque nisi architecto, quisquam
+              voluptatum numquam labore itaque in possimus porro, officiis illo!
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 130K <span>IDR 165K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
 
     <!-- Feather Icons -->
     <script>
