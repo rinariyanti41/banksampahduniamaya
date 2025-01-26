@@ -6,6 +6,13 @@ document.addEventListener("alpine:init", () => {
       { id: 3, name: "Batik Eumbreuk", img: "3.jpg", price: 230000 },
       { id: 4, name: "Tempat Buku Limbah Coffe", img: "4.jpg", price: 90000 },
       { id: 5, name: "Tempat Pensil", img: "5.jpg", price: 35000 },
+      { id: 6, name: "Tas Belanja", img: "6.jpg", price: 75000 },
+      { id: 7, name: "Kursi Drum Kecil", img: "7.jpg", price: 150000 },
+      { id: 8, name: "Keranjang Gelas", img: "8.jpg", price: 80000 },
+      { id: 9, name: "Gantungan Kunci", img: "9.jpg", price: 15000 },
+      { id: 10, name: "Tempat Botol Sampah", img: "10.jpg", price: 120000 },
+      { id: 11, name: "Pulpen", img: "11.jpg", price: 12000 },
+      { id: 13, name: "Tempat Cuci Tangan", img: "13.jpg", price: 190000 },
     ],
   }));
 
